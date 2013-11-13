@@ -1,0 +1,1 @@
+The commands GET, SET, UNSET, and NUMEQUALTO have an expected worst-case of O(1), i.e., constant time as I make use of a TreeMap, which is a sorted HashMap. The access time is constant for these in a HashMap. Thus, this is a highly efficient code, much better than O(log(N)).
